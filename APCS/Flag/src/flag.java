@@ -141,7 +141,7 @@ for (int k = 0; k<4; k++) {
 }
 }
 
-//star method for creating shape
+//star method for creating shape to be used above
 public void stars(double radius, double starcenter_x, double starcenter_y) {
 for (int i = 0; i < 10; i++) {
 x1[i] = (int)(xg[i] * radius);
