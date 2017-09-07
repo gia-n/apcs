@@ -91,10 +91,10 @@ for (int k = 0; k<5; k++) {
 			if (k == 4) {
 				g.setColor(new Color(148, 0, 211));
 			}
-			
-		g.fillPolygon(x1, y1, 10);
+			// end of color code
+	g.fillPolygon(x1, y1, 10);
 
-		l += (xspace * 2);
+	l += (xspace * 2);
 		
 	}
 	z += (yspace *2);
@@ -132,11 +132,11 @@ for (int k = 0; k<4; k++) {
 		if (k == 3) {
 			g.setColor(new Color(75, 0, 180));
 		}
-		
-		g.fillPolygon(x1, y1, 10);
-		l += (xspace * 2);
+		//end of color code
+	g.fillPolygon(x1, y1, 10);
+	l += (xspace * 2);
 	}
-	z += (yspace *2);
+	z += (yspace *2); 
 	l = 0;
 }
 }
